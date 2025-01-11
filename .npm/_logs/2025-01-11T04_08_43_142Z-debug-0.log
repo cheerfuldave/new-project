@@ -1,0 +1,525 @@
+0 verbose cli /opt/conda/bin/node /opt/conda/bin/npm
+1 info using npm@10.1.0
+2 info using node@v20.9.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/opt/conda/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/jovyan/ghlfinal-main/ghlfinal-main/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/jovyan/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/opt/conda/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 8ms
+17 timing npm:load:configload Completed in 8ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install
+22 verbose argv "install"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/home/jovyan/.npm/_logs/2025-01-11T04_08_43_142Z-
+26 verbose logfile /home/jovyan/.npm/_logs/2025-01-11T04_08_43_142Z-debug-0.log
+27 timing npm:load:logFile Completed in 7ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 30ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 120ms
+34 timing idealTree:userRequests Completed in 0ms
+35 silly idealTree buildDeps
+36 silly fetch manifest next@14.0.4
+37 http fetch GET 200 https://registry.npmjs.org/npm 279ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/next 291ms (cache miss)
+39 silly fetch manifest @opentelemetry/api@^1.1.0
+40 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 49ms (cache miss)
+41 silly fetch manifest react@^18.2.0
+42 http fetch GET 200 https://registry.npmjs.org/react 97ms (cache miss)
+43 silly fetch manifest react-dom@^18.2.0
+44 http fetch GET 200 https://registry.npmjs.org/react-dom 109ms (cache miss)
+45 silly fetch manifest sass@^1.3.0
+46 http fetch GET 200 https://registry.npmjs.org/sass 43ms (cache miss)
+47 silly fetch manifest @types/node@^20.10.6
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 94ms (cache miss)
+49 silly placeDep ROOT @types/node@20.17.12 REPLACE for: ghlfinal-fresh@0.1.0 want: ^20.10.6
+50 silly fetch manifest undici-types@~6.19.2
+51 silly placeDep ROOT next@14.0.4 REPLACE for: ghlfinal-fresh@0.1.0 want: 14.0.4
+52 silly placeDep ROOT react@18.3.1 REPLACE for: next@14.0.4 want: ^18.2.0
+53 silly placeDep ROOT react-dom@18.3.1 REPLACE for: next@14.0.4 want: ^18.2.0
+54 silly fetch manifest @next/env@14.0.4
+55 silly fetch manifest watchpack@2.4.0
+56 silly fetch manifest styled-jsx@5.1.1
+57 silly fetch manifest @swc/helpers@0.5.2
+58 silly fetch manifest @next/swc-darwin-x64@14.0.4
+59 silly fetch manifest @next/swc-darwin-arm64@14.0.4
+60 silly fetch manifest @next/swc-linux-x64-gnu@14.0.4
+61 silly fetch manifest @next/swc-linux-x64-musl@14.0.4
+62 silly fetch manifest @next/swc-win32-x64-msvc@14.0.4
+63 silly fetch manifest @next/swc-linux-arm64-gnu@14.0.4
+64 silly fetch manifest @next/swc-win32-ia32-msvc@14.0.4
+65 silly fetch manifest @next/swc-linux-arm64-musl@14.0.4
+66 silly fetch manifest @next/swc-win32-arm64-msvc@14.0.4
+67 silly fetch manifest scheduler@^0.23.2
+68 http fetch GET 200 https://registry.npmjs.org/undici-types 153ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 94ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/styled-jsx 104ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/watchpack 136ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 144ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 245ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 256ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 266ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 276ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 293ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 300ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc 315ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 322ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 332ms (cache miss)
+82 http fetch GET 200 https://registry.npmjs.org/scheduler 337ms (cache miss)
+83 timing idealTree:#root Completed in 1337ms
+84 silly fetch manifest @radix-ui/react-dialog@1.1.4
+85 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dialog 74ms (cache miss)
+86 silly fetch manifest @types/react@*
+87 http fetch GET 200 https://registry.npmjs.org/@types%2freact 56ms (cache miss)
+88 silly fetch manifest @types/react-dom@*
+89 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 61ms (cache miss)
+90 silly fetch manifest react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+91 silly fetch manifest react-dom@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+92 silly fetch manifest @radix-ui/react-primitive@2.0.1
+93 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-primitive 60ms (cache miss)
+94 silly placeDep ROOT @radix-ui/react-dialog@1.1.4 OK for: @radix-ui/react-alert-dialog@1.1.4 want: 1.1.4
+95 silly fetch manifest @radix-ui/react-dismissable-layer@1.1.3
+96 silly fetch manifest @radix-ui/react-focus-scope@1.1.1
+97 silly fetch manifest @radix-ui/react-portal@1.1.3
+98 silly fetch manifest @radix-ui/react-presence@1.1.2
+99 silly placeDep ROOT @radix-ui/react-primitive@2.0.1 OK for: @radix-ui/react-alert-dialog@1.1.4 want: 2.0.1
+100 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-presence 63ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-portal 69ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer 76ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-focus-scope 80ms (cache miss)
+104 timing idealTree:node_modules/@radix-ui/react-alert-dialog Completed in 356ms
+105 silly placeDep ROOT @radix-ui/react-dismissable-layer@1.1.3 OK for: @radix-ui/react-dialog@1.1.4 want: 1.1.3
+106 silly fetch manifest @radix-ui/react-use-escape-keydown@1.1.0
+107 silly placeDep ROOT @radix-ui/react-focus-scope@1.1.1 OK for: @radix-ui/react-dialog@1.1.4 want: 1.1.1
+108 silly placeDep ROOT @radix-ui/react-portal@1.1.3 OK for: @radix-ui/react-dialog@1.1.4 want: 1.1.3
+109 silly placeDep ROOT @radix-ui/react-presence@1.1.2 OK for: @radix-ui/react-dialog@1.1.4 want: 1.1.2
+110 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown 114ms (cache miss)
+111 timing idealTree:node_modules/@radix-ui/react-dialog Completed in 135ms
+112 silly placeDep ROOT @radix-ui/react-use-escape-keydown@1.1.0 OK for: @radix-ui/react-dismissable-layer@1.1.3 want: 1.1.0
+113 timing idealTree:node_modules/@radix-ui/react-dismissable-layer Completed in 3ms
+114 silly fetch manifest @radix-ui/react-menu@2.1.4
+115 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-menu 129ms (cache miss)
+116 silly placeDep ROOT @radix-ui/react-menu@2.1.4 OK for: @radix-ui/react-dropdown-menu@2.1.4 want: 2.1.4
+117 silly fetch manifest @radix-ui/react-collection@1.1.1
+118 silly fetch manifest @radix-ui/react-popper@1.2.1
+119 silly fetch manifest @radix-ui/react-roving-focus@1.1.1
+120 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-popper 64ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-roving-focus 68ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-collection 72ms (cache miss)
+123 timing idealTree:node_modules/@radix-ui/react-dropdown-menu Completed in 231ms
+124 timing idealTree:node_modules/@radix-ui/react-focus-scope Completed in 0ms
+125 timing idealTree:node_modules/@radix-ui/react-label Completed in 0ms
+126 silly placeDep ROOT @radix-ui/react-collection@1.1.1 OK for: @radix-ui/react-menu@2.1.4 want: 1.1.1
+127 silly placeDep ROOT @radix-ui/react-popper@1.2.1 OK for: @radix-ui/react-menu@2.1.4 want: 1.2.1
+128 silly fetch manifest @floating-ui/react-dom@^2.0.0
+129 silly fetch manifest @radix-ui/react-arrow@1.1.1
+130 silly fetch manifest @radix-ui/react-use-rect@1.1.0
+131 silly fetch manifest @radix-ui/react-use-size@1.1.0
+132 silly fetch manifest @radix-ui/rect@1.1.0
+133 silly placeDep ROOT @radix-ui/react-roving-focus@1.1.1 OK for: @radix-ui/react-menu@2.1.4 want: 1.1.1
+134 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2freact-dom 86ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-size 91ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-rect 92ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2frect 93ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-arrow 105ms (cache miss)
+139 timing idealTree:node_modules/@radix-ui/react-menu Completed in 172ms
+140 timing idealTree:node_modules/@radix-ui/react-collection Completed in 1ms
+141 silly placeDep ROOT @floating-ui/react-dom@2.1.2 OK for: @radix-ui/react-popper@1.2.1 want: ^2.0.0
+142 silly fetch manifest @floating-ui/dom@^1.0.0
+143 silly placeDep ROOT @radix-ui/react-arrow@1.1.1 OK for: @radix-ui/react-popper@1.2.1 want: 1.1.1
+144 silly placeDep ROOT @radix-ui/react-use-rect@1.1.0 OK for: @radix-ui/react-popper@1.2.1 want: 1.1.0
+145 silly placeDep ROOT @radix-ui/react-use-size@1.1.0 OK for: @radix-ui/react-popper@1.2.1 want: 1.1.0
+146 silly placeDep ROOT @radix-ui/rect@1.1.0 OK for: @radix-ui/react-popper@1.2.1 want: 1.1.0
+147 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2fdom 101ms (cache miss)
+148 timing idealTree:node_modules/@radix-ui/react-popper Completed in 106ms
+149 silly placeDep ROOT @floating-ui/dom@1.6.13 OK for: @floating-ui/react-dom@2.1.2 want: ^1.0.0
+150 silly fetch manifest @floating-ui/core@^1.6.0
+151 silly fetch manifest @floating-ui/utils@^0.2.9
+152 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2fcore 52ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2futils 53ms (cache miss)
+154 timing idealTree:node_modules/@floating-ui/react-dom Completed in 56ms
+155 silly placeDep ROOT @floating-ui/core@1.6.9 OK for: @floating-ui/dom@1.6.13 want: ^1.6.0
+156 silly placeDep ROOT @floating-ui/utils@0.2.9 OK for: @floating-ui/dom@1.6.13 want: ^0.2.9
+157 timing idealTree:node_modules/@floating-ui/dom Completed in 1ms
+158 timing idealTree:node_modules/@floating-ui/core Completed in 0ms
+159 timing idealTree:node_modules/@floating-ui/utils Completed in 0ms
+160 timing idealTree:node_modules/@radix-ui/react-arrow Completed in 0ms
+161 timing idealTree:node_modules/@radix-ui/react-portal Completed in 0ms
+162 timing idealTree:node_modules/@radix-ui/react-presence Completed in 0ms
+163 timing idealTree:node_modules/@radix-ui/react-primitive Completed in 0ms
+164 timing idealTree:node_modules/@radix-ui/react-roving-focus Completed in 0ms
+165 silly fetch manifest @radix-ui/react-visually-hidden@1.1.1
+166 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-visually-hidden 55ms (cache miss)
+167 silly placeDep ROOT @radix-ui/react-visually-hidden@1.1.1 OK for: @radix-ui/react-select@2.1.4 want: 1.1.1
+168 timing idealTree:node_modules/@radix-ui/react-select Completed in 101ms
+169 timing idealTree:node_modules/@radix-ui/react-separator Completed in 0ms
+170 timing idealTree:node_modules/@radix-ui/react-tooltip Completed in 1ms
+171 timing idealTree:node_modules/@radix-ui/react-use-escape-keydown Completed in 0ms
+172 timing idealTree:node_modules/@radix-ui/react-use-rect Completed in 0ms
+173 timing idealTree:node_modules/@radix-ui/react-use-size Completed in 0ms
+174 timing idealTree:node_modules/@radix-ui/react-visually-hidden Completed in 0ms
+175 timing idealTree:node_modules/@radix-ui/rect Completed in 0ms
+176 silly placeDep ROOT undici-types@6.19.8 OK for: @types/node@20.17.12 want: ~6.19.2
+177 timing idealTree:node_modules/@types/node Completed in 1ms
+178 silly placeDep ROOT @next/env@14.0.4 OK for: next@14.0.4 want: 14.0.4
+179 silly placeDep ROOT @next/swc-darwin-arm64@14.0.4 OK for: next@14.0.4 want: 14.0.4
+180 silly placeDep ROOT @next/swc-darwin-x64@14.0.4 OK for: next@14.0.4 want: 14.0.4
+181 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.0.4 OK for: next@14.0.4 want: 14.0.4
+182 silly placeDep ROOT @next/swc-linux-arm64-musl@14.0.4 OK for: next@14.0.4 want: 14.0.4
+183 silly placeDep ROOT @next/swc-linux-x64-gnu@14.0.4 OK for: next@14.0.4 want: 14.0.4
+184 silly placeDep ROOT @next/swc-linux-x64-musl@14.0.4 OK for: next@14.0.4 want: 14.0.4
+185 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.0.4 OK for: next@14.0.4 want: 14.0.4
+186 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.0.4 OK for: next@14.0.4 want: 14.0.4
+187 silly placeDep ROOT @next/swc-win32-x64-msvc@14.0.4 OK for: next@14.0.4 want: 14.0.4
+188 silly placeDep ROOT @swc/helpers@0.5.2 OK for: next@14.0.4 want: 0.5.2
+189 silly placeDep ROOT styled-jsx@5.1.1 OK for: next@14.0.4 want: 5.1.1
+190 silly fetch manifest client-only@0.0.1
+191 silly placeDep ROOT watchpack@2.4.0 OK for: next@14.0.4 want: 2.4.0
+192 silly fetch manifest glob-to-regexp@^0.4.1
+193 http fetch GET 200 https://registry.npmjs.org/glob-to-regexp 35ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/client-only 40ms (cache miss)
+195 timing idealTree:node_modules/next Completed in 50ms
+196 timing idealTree:node_modules/@next/env Completed in 0ms
+197 timing idealTree:node_modules/@next/swc-darwin-arm64 Completed in 0ms
+198 timing idealTree:node_modules/@next/swc-darwin-x64 Completed in 0ms
+199 timing idealTree:node_modules/@next/swc-linux-arm64-gnu Completed in 0ms
+200 timing idealTree:node_modules/@next/swc-linux-arm64-musl Completed in 0ms
+201 timing idealTree:node_modules/@next/swc-linux-x64-gnu Completed in 0ms
+202 timing idealTree:node_modules/@next/swc-linux-x64-musl Completed in 0ms
+203 timing idealTree:node_modules/@next/swc-win32-arm64-msvc Completed in 0ms
+204 timing idealTree:node_modules/@next/swc-win32-ia32-msvc Completed in 0ms
+205 timing idealTree:node_modules/@next/swc-win32-x64-msvc Completed in 0ms
+206 timing idealTree:node_modules/@swc/helpers Completed in 0ms
+207 timing idealTree:node_modules/react Completed in 0ms
+208 silly placeDep ROOT scheduler@0.23.2 OK for: react-dom@18.3.1 want: ^0.23.2
+209 timing idealTree:node_modules/react-dom Completed in 1ms
+210 timing idealTree:node_modules/scheduler Completed in 0ms
+211 silly placeDep ROOT client-only@0.0.1 OK for: styled-jsx@5.1.1 want: 0.0.1
+212 timing idealTree:node_modules/styled-jsx Completed in 0ms
+213 timing idealTree:node_modules/client-only Completed in 0ms
+214 timing idealTree:node_modules/undici-types Completed in 0ms
+215 silly placeDep ROOT glob-to-regexp@0.4.1 OK for: watchpack@2.4.0 want: ^0.4.1
+216 timing idealTree:node_modules/watchpack Completed in 1ms
+217 timing idealTree:node_modules/glob-to-regexp Completed in 0ms
+218 timing idealTree:buildDeps Completed in 2559ms
+219 timing idealTree:fixDepFlags Completed in 15ms
+220 timing idealTree Completed in 2696ms
+221 timing reify:loadTrees Completed in 2697ms
+222 timing reify:diffTrees Completed in 1ms
+223 silly reify moves {}
+224 timing reify:retireShallow Completed in 1ms
+225 timing reify:createSparse Completed in 4ms
+226 timing reify:loadBundles Completed in 0ms
+227 silly audit bulk request {
+227 silly audit   nanoid: [ '3.3.8' ],
+227 silly audit   '@opentelemetry/api': [ '1.9.0' ],
+227 silly audit   '@types/prop-types': [ '15.7.14' ],
+227 silly audit   '@types/react': [ '18.3.18' ],
+227 silly audit   busboy: [ '1.6.0' ],
+227 silly audit   'caniuse-lite': [ '1.0.30001692' ],
+227 silly audit   csstype: [ '3.1.3' ],
+227 silly audit   'graceful-fs': [ '4.2.11' ],
+227 silly audit   'js-tokens': [ '4.0.0' ],
+227 silly audit   'loose-envify': [ '1.4.0' ],
+227 silly audit   postcss: [ '8.4.31' ],
+227 silly audit   picocolors: [ '1.1.1' ],
+227 silly audit   'source-map-js': [ '1.2.1' ],
+227 silly audit   streamsearch: [ '1.1.0' ],
+227 silly audit   tslib: [ '2.8.1' ],
+227 silly audit   typescript: [ '5.7.3' ],
+227 silly audit   '@types/node': [ '20.17.12' ],
+227 silly audit   next: [ '14.0.4' ],
+227 silly audit   react: [ '18.3.1' ],
+227 silly audit   'react-dom': [ '18.3.1' ],
+227 silly audit   'undici-types': [ '6.19.8' ],
+227 silly audit   '@next/env': [ '14.0.4' ],
+227 silly audit   '@next/swc-darwin-arm64': [ '14.0.4' ],
+227 silly audit   '@next/swc-darwin-x64': [ '14.0.4' ],
+227 silly audit   '@next/swc-linux-arm64-gnu': [ '14.0.4' ],
+227 silly audit   '@next/swc-linux-arm64-musl': [ '14.0.4' ],
+227 silly audit   '@next/swc-linux-x64-gnu': [ '14.0.4' ],
+227 silly audit   '@next/swc-linux-x64-musl': [ '14.0.4' ],
+227 silly audit   '@next/swc-win32-arm64-msvc': [ '14.0.4' ],
+227 silly audit   '@next/swc-win32-ia32-msvc': [ '14.0.4' ],
+227 silly audit   '@next/swc-win32-x64-msvc': [ '14.0.4' ],
+227 silly audit   '@swc/helpers': [ '0.5.2' ],
+227 silly audit   'styled-jsx': [ '5.1.1' ],
+227 silly audit   watchpack: [ '2.4.0' ],
+227 silly audit   scheduler: [ '0.23.2' ],
+227 silly audit   'client-only': [ '0.0.1' ],
+227 silly audit   'glob-to-regexp': [ '0.4.1' ]
+227 silly audit }
+228 verbose reify failed optional dependency /home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-win32-x64-msvc
+229 silly reify mark deleted [
+229 silly reify   '/home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-win32-x64-msvc'
+229 silly reify ]
+230 verbose reify failed optional dependency /home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-win32-ia32-msvc
+231 silly reify mark deleted [
+231 silly reify   '/home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-win32-ia32-msvc'
+231 silly reify ]
+232 verbose reify failed optional dependency /home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-win32-arm64-msvc
+233 silly reify mark deleted [
+233 silly reify   '/home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-win32-arm64-msvc'
+233 silly reify ]
+234 verbose reify failed optional dependency /home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-linux-arm64-musl
+235 silly reify mark deleted [
+235 silly reify   '/home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-linux-arm64-musl'
+235 silly reify ]
+236 verbose reify failed optional dependency /home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-linux-arm64-gnu
+237 silly reify mark deleted [
+237 silly reify   '/home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-linux-arm64-gnu'
+237 silly reify ]
+238 verbose reify failed optional dependency /home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-darwin-x64
+239 silly reify mark deleted [
+239 silly reify   '/home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-darwin-x64'
+239 silly reify ]
+240 verbose reify failed optional dependency /home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-darwin-arm64
+241 silly reify mark deleted [
+241 silly reify   '/home/jovyan/ghlfinal-main/ghlfinal-main/node_modules/@next/swc-darwin-arm64'
+241 silly reify ]
+242 timing reifyNode:node_modules/@next/swc-win32-x64-msvc Completed in 7ms
+243 timing reifyNode:node_modules/@next/swc-win32-ia32-msvc Completed in 7ms
+244 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 7ms
+245 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 7ms
+246 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 7ms
+247 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 7ms
+248 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 6ms
+249 silly tarball no local data for glob-to-regexp@https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz. Extracting by manifest.
+250 silly tarball no local data for client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz. Extracting by manifest.
+251 silly tarball no local data for watchpack@https://registry.npmjs.org/watchpack/-/watchpack-2.4.0.tgz. Extracting by manifest.
+252 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+253 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz. Extracting by manifest.
+254 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.2.tgz. Extracting by manifest.
+255 silly tarball no local data for @next/swc-linux-x64-musl@https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.0.4.tgz. Extracting by manifest.
+256 silly tarball no local data for @next/swc-linux-x64-gnu@https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.0.4.tgz. Extracting by manifest.
+257 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-14.0.4.tgz. Extracting by manifest.
+258 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz. Extracting by manifest.
+259 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+260 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.3.1.tgz. Extracting by manifest.
+261 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-14.0.4.tgz. Extracting by manifest.
+262 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.17.12.tgz. Extracting by manifest.
+263 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz. Extracting by manifest.
+264 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+265 silly tarball no local data for streamsearch@https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz. Extracting by manifest.
+266 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+267 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+268 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+269 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+270 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+271 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz. Extracting by manifest.
+272 silly tarball no local data for busboy@https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz. Extracting by manifest.
+273 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001692.tgz. Extracting by manifest.
+274 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-18.3.18.tgz. Extracting by manifest.
+275 silly tarball no local data for @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.14.tgz. Extracting by manifest.
+276 silly tarball no local data for @opentelemetry/api@https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.0.tgz. Extracting by manifest.
+277 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz. Extracting by manifest.
+278 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz. Extracting by manifest.
+279 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 162ms
+280 timing auditReport:getReport Completed in 165ms
+281 silly audit report {
+281 silly audit report   next: [
+281 silly audit report     {
+281 silly audit report       id: 1099638,
+281 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+281 silly audit report       title: 'Next.js Cache Poisoning',
+281 silly audit report       severity: 'high',
+281 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.10',
+281 silly audit report       cwe: [Array],
+281 silly audit report       cvss: [Object]
+281 silly audit report     },
+281 silly audit report     {
+281 silly audit report       id: 1100421,
+281 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+281 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+281 silly audit report       severity: 'moderate',
+281 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+281 silly audit report       cwe: [Array],
+281 silly audit report       cvss: [Object]
+281 silly audit report     },
+281 silly audit report     {
+281 silly audit report       id: 1101380,
+281 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+281 silly audit report       title: 'Next.js authorization bypass vulnerability',
+281 silly audit report       severity: 'high',
+281 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+281 silly audit report       cwe: [Array],
+281 silly audit report       cvss: [Object]
+281 silly audit report     },
+281 silly audit report     {
+281 silly audit report       id: 1101438,
+281 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+281 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+281 silly audit report       severity: 'moderate',
+281 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.21',
+281 silly audit report       cwe: [Array],
+281 silly audit report       cvss: [Object]
+281 silly audit report     },
+281 silly audit report     {
+281 silly audit report       id: 1097295,
+281 silly audit report       url: 'https://github.com/advisories/GHSA-fr5h-rqp8-mj6g',
+281 silly audit report       title: 'Next.js Server-Side Request Forgery in Server Actions',
+281 silly audit report       severity: 'high',
+281 silly audit report       vulnerable_versions: '>=13.4.0 <14.1.1',
+281 silly audit report       cwe: [Array],
+281 silly audit report       cvss: [Object]
+281 silly audit report     }
+281 silly audit report   ]
+281 silly audit report }
+282 timing metavuln:packument:next Completed in 1ms
+283 timing metavuln:cache:get:security-advisory:next:A9m47VBQvL++V9EsVwBseCbPrOK9xk7oLIzrStyVB02IketEwhGsklFuhL1oaYPUn8YGmhlTxpFhF93K/Wfw5Q== Completed in 10ms
+284 timing metavuln:load:security-advisory:next:1099638 Completed in 50ms
+285 timing metavuln:cache:get:security-advisory:next:d2hMvT1neRk1OILN6KsQ2L4sjWpIe19WxzSQJivjdzJVb/hhXgpN5SXMC++Yae4yKIQkpUsP465F2rfLyKo4PA== Completed in 60ms
+286 timing metavuln:load:security-advisory:next:1100421 Completed in 74ms
+287 timing metavuln:cache:get:security-advisory:next:D6WTw+Rp2YFkQ065HbCta60wmL8FISFZuXIwHsy06C4Ka33a+guaJDa6cQ3lv6msO26tV1meNesuiT38Bz8F2g== Completed in 135ms
+288 timing metavuln:load:security-advisory:next:1101380 Completed in 43ms
+289 timing metavuln:cache:get:security-advisory:next:NpdQYf+4OaOvlNiZgkhHLNCcOTe84gjeay11sdJQ2HSe2hRovddeIJqZfGwiLh+ns7klO1J2oxhVS+ou+h9gmw== Completed in 180ms
+290 timing metavuln:load:security-advisory:next:1101438 Completed in 39ms
+291 timing metavuln:cache:get:security-advisory:next:KuoIS+OJYYdcOMvBUpM2m/4qAW2cZRXPz4dIg3E9TqUkPK1mM5snZkK64pq9phR6fTlXb04DR04ka7VXaspoFg== Completed in 219ms
+292 timing metavuln:load:security-advisory:next:1097295 Completed in 43ms
+293 http fetch GET 200 https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 486ms (cache miss)
+294 timing reifyNode:node_modules/client-only Completed in 500ms
+295 http fetch GET 200 https://registry.npmjs.org/glob-to-regexp/-/glob-to-regexp-0.4.1.tgz 493ms (cache miss)
+296 timing reifyNode:node_modules/glob-to-regexp Completed in 506ms
+297 http fetch GET 200 https://registry.npmjs.org/watchpack/-/watchpack-2.4.0.tgz 491ms (cache miss)
+298 timing reifyNode:node_modules/watchpack Completed in 509ms
+299 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-14.0.4.tgz 492ms (cache miss)
+300 timing reifyNode:node_modules/@next/env Completed in 509ms
+301 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 487ms (cache miss)
+302 timing reifyNode:node_modules/picocolors Completed in 509ms
+303 http fetch GET 200 https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz 489ms (cache miss)
+304 timing reifyNode:node_modules/streamsearch Completed in 510ms
+305 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.14.tgz 485ms (cache miss)
+306 timing reifyNode:node_modules/@types/prop-types Completed in 510ms
+307 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 488ms (cache miss)
+308 timing reifyNode:node_modules/loose-envify Completed in 510ms
+309 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 487ms (cache miss)
+310 timing reifyNode:node_modules/js-tokens Completed in 510ms
+311 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 494ms (cache miss)
+312 timing reifyNode:node_modules/graceful-fs Completed in 517ms
+313 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz 479ms (cache miss)
+314 timing metavuln:cache:put:security-advisory:next:A9m47VBQvL++V9EsVwBseCbPrOK9xk7oLIzrStyVB02IketEwhGsklFuhL1oaYPUn8YGmhlTxpFhF93K/Wfw5Q== Completed in 301ms
+315 timing metavuln:calculate:security-advisory:next:1099638 Completed in 361ms
+316 timing metavuln:cache:put:security-advisory:next:d2hMvT1neRk1OILN6KsQ2L4sjWpIe19WxzSQJivjdzJVb/hhXgpN5SXMC++Yae4yKIQkpUsP465F2rfLyKo4PA== Completed in 227ms
+317 timing metavuln:calculate:security-advisory:next:1100421 Completed in 361ms
+318 timing metavuln:cache:put:security-advisory:next:D6WTw+Rp2YFkQ065HbCta60wmL8FISFZuXIwHsy06C4Ka33a+guaJDa6cQ3lv6msO26tV1meNesuiT38Bz8F2g== Completed in 182ms
+319 timing metavuln:calculate:security-advisory:next:1101380 Completed in 361ms
+320 timing metavuln:cache:put:security-advisory:next:NpdQYf+4OaOvlNiZgkhHLNCcOTe84gjeay11sdJQ2HSe2hRovddeIJqZfGwiLh+ns7klO1J2oxhVS+ou+h9gmw== Completed in 142ms
+321 timing metavuln:calculate:security-advisory:next:1101438 Completed in 361ms
+322 timing metavuln:cache:put:security-advisory:next:KuoIS+OJYYdcOMvBUpM2m/4qAW2cZRXPz4dIg3E9TqUkPK1mM5snZkK64pq9phR6fTlXb04DR04ka7VXaspoFg== Completed in 98ms
+323 timing metavuln:calculate:security-advisory:next:1097295 Completed in 362ms
+324 timing auditReport:init Completed in 382ms
+325 timing reify:audit Completed in 548ms
+326 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 528ms (cache miss)
+327 timing reifyNode:node_modules/tslib Completed in 558ms
+328 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 545ms (cache miss)
+329 timing reifyNode:node_modules/scheduler Completed in 565ms
+330 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 550ms (cache miss)
+331 timing reifyNode:node_modules/source-map-js Completed in 578ms
+332 timing reifyNode:node_modules/next/node_modules/nanoid Completed in 615ms
+333 http fetch GET 200 https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz 596ms (cache miss)
+334 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.3.1.tgz 606ms (cache miss)
+335 timing reifyNode:node_modules/busboy Completed in 626ms
+336 timing reifyNode:node_modules/react Completed in 628ms
+337 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-18.3.18.tgz 604ms (cache miss)
+338 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-6.19.8.tgz 611ms (cache miss)
+339 timing reifyNode:node_modules/@types/react Completed in 632ms
+340 timing reifyNode:node_modules/undici-types Completed in 632ms
+341 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 650ms (cache miss)
+342 timing reifyNode:node_modules/next/node_modules/postcss Completed in 680ms
+343 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz 678ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz 671ms (cache miss)
+345 timing reifyNode:node_modules/csstype Completed in 695ms
+346 timing reifyNode:node_modules/styled-jsx Completed in 698ms
+347 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.17.12.tgz 821ms (cache miss)
+348 timing reifyNode:node_modules/@types/node Completed in 843ms
+349 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz 884ms (cache miss)
+350 timing reifyNode:node_modules/react-dom Completed in 902ms
+351 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.2.tgz 1046ms (cache miss)
+352 timing reifyNode:node_modules/@swc/helpers Completed in 1063ms
+353 http fetch GET 200 https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.0.tgz 1141ms (cache miss)
+354 timing reifyNode:node_modules/@opentelemetry/api Completed in 1168ms
+355 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001692.tgz 1182ms (cache miss)
+356 timing reifyNode:node_modules/caniuse-lite Completed in 1207ms
+357 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz 1385ms (cache miss)
+358 timing reifyNode:node_modules/typescript Completed in 1406ms
+359 http fetch GET 200 https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-14.0.4.tgz 3280ms (cache miss)
+360 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 3298ms
+361 http fetch GET 200 https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-14.0.4.tgz 3630ms (cache miss)
+362 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 3647ms
+363 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.0.4.tgz 4285ms (cache miss)
+364 timing reifyNode:node_modules/next Completed in 4304ms
+365 timing reify:unpack Completed in 4305ms
+366 timing reify:unretire Completed in 1ms
+367 timing build:queue Completed in 1ms
+368 timing build:link:node_modules/loose-envify Completed in 2ms
+369 timing build:link:node_modules/next/node_modules/nanoid Completed in 1ms
+370 timing build:link:node_modules/next Completed in 1ms
+371 timing build:link:node_modules/typescript Completed in 1ms
+372 timing build:link Completed in 2ms
+373 timing build:deps Completed in 3ms
+374 timing build Completed in 3ms
+375 timing reify:build Completed in 3ms
+376 timing reify:trash Completed in 1ms
+377 timing reify:save Completed in 9ms
+378 timing reify Completed in 7062ms
+379 silly ADD node_modules/glob-to-regexp
+380 silly ADD node_modules/client-only
+381 silly ADD node_modules/scheduler
+382 silly ADD node_modules/watchpack
+383 silly ADD node_modules/styled-jsx
+384 silly ADD node_modules/@swc/helpers
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 silly ADD node_modules/@next/swc-linux-x64-musl
+389 silly ADD node_modules/@next/swc-linux-x64-gnu
+390 silly ADD
+391 silly ADD
+392 silly ADD
+393 silly ADD
+394 silly ADD node_modules/@next/env
+395 silly ADD node_modules/undici-types
+396 silly ADD node_modules/react-dom
+397 silly ADD node_modules/react
+398 silly ADD node_modules/next
+399 silly ADD node_modules/next/node_modules/postcss
+400 silly ADD node_modules/next/node_modules/nanoid
+401 silly ADD node_modules/@types/node
+402 silly ADD node_modules/typescript
+403 silly ADD node_modules/tslib
+404 silly ADD node_modules/streamsearch
+405 silly ADD node_modules/source-map-js
+406 silly ADD node_modules/picocolors
+407 silly ADD node_modules/loose-envify
+408 silly ADD node_modules/js-tokens
+409 silly ADD node_modules/graceful-fs
+410 silly ADD node_modules/csstype
+411 silly ADD node_modules/caniuse-lite
+412 silly ADD node_modules/busboy
+413 silly ADD node_modules/@types/react
+414 silly ADD node_modules/@types/prop-types
+415 silly ADD node_modules/@opentelemetry/api
+416 timing command:install Completed in 7098ms
+417 notice
+417 notice New major version of npm available! 10.1.0 -> 11.0.0
+417 notice Changelog: <https://github.com/npm/cli/releases/tag/v11.0.0>
+417 notice Run `npm install -g npm@11.0.0` to update!
+417 notice
+418 verbose exit 0
+419 timing npm Completed in 7245ms
+420 info ok

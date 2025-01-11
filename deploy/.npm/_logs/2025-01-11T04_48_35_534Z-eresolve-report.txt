@@ -1,0 +1,18 @@
+'Log files:
+/home/jovyan/.npm/_logs/2025-01-11T04_48_35_534Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: ghlfinal-fresh@0.1.0
+Found: next@15.2.0-canary.4
+node_modules/next
+  next@"^15.2.0-canary.4" from the root project
+
+Could not resolve dependency:
+peer next@"^12.2.5 || ^13 || ^14 || ^15" from next-auth@4.24.11
+node_modules/next-auth
+  next-auth@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
